@@ -37,7 +37,7 @@
 
   > 学生先用微信（雨学堂）绑定身份和班级，然后用（学堂云）上课。学堂云最好是在电脑上看
 
-  ![形式与政治](C:\Users\stone\Desktop\myData\course-materials\image_2020_1\XI09V@]HV(@_9P)9]X~DNVF.jpg)
+  ![形式与政治](https://github.com/sstonehy/course-materials/blob/main/image_2020_1/XI09V@%5DHV(@_9P)9%5DX~DNVF.jpg?raw=true)
 
 
 

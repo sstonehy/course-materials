@@ -77,7 +77,7 @@
 #### Windows
 
 * 直播网课
-  1. [腾讯课堂地址]([https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724](qq://txfile/#))
+  1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724)
 * 自学网课
 
 

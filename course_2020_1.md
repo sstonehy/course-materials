@@ -35,11 +35,27 @@
 
 #### 计算机应用基础
 
+* 直播网课
 
+  1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2789611&term_id=102899048&lite=1&from=800021724)
+  
+* 课后作业
 
+    老是上课时布置，需要提交到老师邮箱 592007031@qq.com
+    
+* 自学网课
+
+  1. [职教云地址](https://zjy2.icve.com.cn/student/studio/studio.html)
+  
+  > 用学号和身份证后6位登录
+    
 #### 思政课
+* 自学网课
 
+  1. [学堂云平台](https://sziit.yuketang.cn/pro/portal/home/)
 
+* 直播网课
+  
 
 #### 形式与政治
 
@@ -55,14 +71,23 @@
 
 #### 心理健康教育
 
+* 自学网课
 
+  1. [学堂云平台](https://sziit.yuketang.cn/pro/portal/home/)
+
+* 直播网课
+
+  1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2815023&term_id=102925318&lite=1&from=800021724)
+    
 
 #### 体育
 
 
+#### 军事理论
 
+* 自学网课
 
-
+  1. [学堂云平台](https://sziit.yuketang.cn/pro/portal/home/)
 
 
 ### 专业
@@ -78,13 +103,16 @@
 
 * 直播网课
   1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724)
+
 * 自学网课
 
+  1. [职教云地址](https://zjy2.icve.com.cn/student/studio/studio.html)
+  
+  > 用学号和身份证后6位登录
 
 
 #### 网页设计
 
 * 直播网课
   1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2787073&term_id=102896508&lite=1&from=800021724)
-  2. 
 

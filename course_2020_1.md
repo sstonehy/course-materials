@@ -55,6 +55,7 @@
   1. [学堂云平台](https://sziit.yuketang.cn/pro/portal/home/)
 
 * 直播网课
+ 1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2887382&term_id=102998899&lite=1&from=800021724)
   
 
 #### 形式与政治

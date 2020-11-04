@@ -49,7 +49,7 @@
   1. [职教云地址](https://zjy2.icve.com.cn/student/studio/studio.html)
   
   > 用学号和身份证后6位登录
-    
+  
 #### 思政课
 * 自学网课
 
@@ -57,7 +57,7 @@
 
 * 直播网课
  1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2887382&term_id=102998899&lite=1&from=800021724)
-  
+
 
 #### 形式与政治
 
@@ -80,7 +80,7 @@
 * 直播网课
 
   1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2815023&term_id=102925318&lite=1&from=800021724)
-    
+  
 
 #### 体育
 
@@ -104,13 +104,28 @@
 #### Windows
 
 * 直播网课
-  1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724)
-
+  
+1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724)
+  
 * 自学网课
 
   1. [职教云地址](https://zjy2.icve.com.cn/student/studio/studio.html)
   
   > 用学号和身份证后6位登录
+  
+* 相关作业
+
+  > 同学们：
+  > 《Windows桌面操作系统管理》最后一次线上课到此结束。我布置的5道作业题请各位在11月15日之前提交。其中1-3题要求提交截图，由于系统原因，可将截图发到我的邮箱634415077@qq.com，备注自己的姓名，我会根据截图在职教云上打分。
+  > 关于下周日下午的面授课：
+  > 1、同学们尽量带自己的笔记本电脑过来
+  > 2、准备一个空的U盘作为启动盘制作素材
+  > 3、如果还有其他之前没懂的地方需要具体面授，可以私聊我
+
+ 
+
+
+
 
 
 #### 网页设计

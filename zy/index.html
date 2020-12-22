@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>作业</title>
+  </head>
+  <body>
+    <style>
+      @charset "UTF-8";
+
+      body,
+      div,
+      dl,
+      dt,
+      dd,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      pre,
+      code,
+      form,
+      fieldset,
+      legend,
+      input,
+      button,
+      textarea,
+      p,
+      blockquote,
+      th,
+      td,
+      span,
+      hr {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        line-height: 1.333;
+        font-size: 12px;
+        background-color: #f7f7f7;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: 100%;
+        font-family: arial, hiragino sans gb, microsoft yahei, simsun,
+          sans-serif;
+      }
+      li {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .top-view {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .top-view > img {
+        margin-left: 15px;
+      }
+      .top-view > span {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-right: 15px;
+      }
+
+      .navigation-up {
+        font-size: 18px;
+        background: #3470d8;
+      }
+      .navigation-menu {
+        display: flex;
+      }
+
+      .navigation-up .navigation-menu .nav-up-selected {
+        flex: 1;
+        height: 60px;
+        text-align: center;
+        background: #3470d8;
+      }
+
+      .navigation-up .navigation-menu .nav-up-selected:hover {
+        background: #fff;
+      }
+      .navigation-up .navigation-menu .nav-up-selected:hover > a {
+        color: #3470d8;
+      }
+
+      .navigation-up .navigation-menu li a {
+        color: #fff;
+        line-height: 60px;
+        text-align: center;
+      }
+
+      .img-banner {
+        width: 100%;
+        height: 300px;
+      }
+
+      .list-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .list-view {
+        overflow: hidden;
+        font-size: 15px;
+        align-items: center;
+        flex-grow: 1;
+      }
+      .list-view-left {
+        background-color: #f7f7f7;
+      }
+      .list-view-right {
+        background-color: #f7f7f7;
+      }
+
+      .item-content {
+        padding: 5px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      div > p {
+        padding: 10px;
+      }
+    </style>
+    <div id="index">
+      <div class="top-view">
+        <img src="img/img01.jpg" alt="image" />
+        <span><a href="#">English</a>|<a href="#">网站地图</a></span>
+      </div>
+
+      <div class="navigation-up">
+        <ul class="navigation-menu">
+          <li class="nav-up-selected" v-for="i in nevigatelist">
+            <a href="#">{{i.label}}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <img class="img-banner" src="img/img02.jpg" alt="img" />
+      </div>
+
+      <div>
+        <div class="list-container">
+          <div class="list-view list-view-left">
+            <div class="item-content">
+              <a href="#">深信要闻</a>
+              <a href="#">更多>></a>
+            </div>
+            <hr />
+            <ul>
+              <li v-for="i in 5" class="item-content">
+                <a href="#">计算机学生棒棒{{i}}</a>
+                <a href="#"> 12-29</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="list-view list-view-right">
+            <div class="item-content">
+              <a href="#">通知公告</a>
+              <a href="#">更多>></a>
+            </div>
+            <hr />
+            <ul>
+              <li v-for="i in 5" class="item-content">
+                <a href="#">计算机学生棒棒{{i}}</a>
+                <a href="#"> 2019-12-29</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div style="text-align: center">
+        <select style="margin-top: 10px">
+          <option value="" style="display: none" disabled selected>
+            请选择
+          </option>
+          <option>深圳教育</option>
+          <option>广东教育</option>
+          <option>中国教育</option>
+        </select>
+        <div>
+          <p>Copyright 2002-2020 SZIIT All Rights Reserved</p>
+        </div>
+
+        <div>
+          <img src="img/img03.jpg" alt="image1" />
+          <img src="img/img04.jpg" alt="image2" />
+          <img src="img/img05.jpg" alt="image3" />
+        </div>
+
+        <div>
+          <p>深圳信息职业技术学院</p>
+        </div>
+        <div>
+          <p>粤ICP19993号</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://s1.pstatp.com/cdn/expire-1-M/vue/2.2.2/vue.min.js"></script>
+    <script type="text/javascript">
+      new Vue({
+        el: "#index",
+        data: {
+          /* 导航标题 */
+          nevigatelist: [
+            {
+              id: "1",
+              nav: "home",
+              label: "首页",
+            },
+            {
+              id: "2",
+              nav: "product",
+              label: "学校概述",
+            },
+            {
+              id: "3",
+              nav: "wechat",
+              label: "组织机构",
+            },
+            {
+              id: "4",
+              nav: "solution",
+              label: "合作交流",
+            },
+            {
+              id: "5",
+              nav: "cooperate",
+              label: "服务信息",
+            },
+          ],
+        },
+        mounted: function () {},
+        methods: {},
+      });
+    </script>
+  </body>
+</html>

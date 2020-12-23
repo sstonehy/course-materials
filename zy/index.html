@@ -2,57 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>作业</title>
   </head>
   <body>
     <style>
-      @charset "UTF-8";
-
-      body,
-      div,
-      dl,
-      dt,
-      dd,
-      ul,
-      ol,
-      li,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      pre,
-      code,
-      form,
-      fieldset,
-      legend,
-      input,
-      button,
-      textarea,
-      p,
-      blockquote,
-      th,
-      td,
-      span,
-      hr {
+      
+      * {
         margin: 0;
         padding: 0;
       }
       body {
-        line-height: 1.333;
-        font-size: 12px;
         background-color: #f7f7f7;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-size: 100%;
-        font-family: arial, hiragino sans gb, microsoft yahei, simsun,
-          sans-serif;
       }
       li {
         list-style: none;
@@ -111,7 +70,7 @@
       }
 
       .list-container {
-        width: 90%;
+      
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -149,10 +108,29 @@
       </div>
 
       <div class="navigation-up">
+
         <ul class="navigation-menu">
-          <li class="nav-up-selected" v-for="i in nevigatelist">
-            <a href="#">{{i.label}}</a>
+
+          <li class="nav-up-selected" >
+            <a href="#">首页</a>
           </li>
+
+          <li class="nav-up-selected" >
+            <a href="#">学校概述</a>
+          </li>
+
+          <li class="nav-up-selected" >
+            <a href="#">组织机构</a>
+          </li>
+
+          <li class="nav-up-selected" >
+            <a href="#">合作交流</a>
+          </li>
+
+          <li class="nav-up-selected" >
+            <a href="#">服务信息</a>
+          </li>
+
         </ul>
       </div>
 
@@ -169,10 +147,27 @@
             </div>
             <hr />
             <ul>
-              <li v-for="i in 5" class="item-content">
-                <a href="#">计算机学生棒棒{{i}}</a>
+              <li class="item-content">
+                <a href="#">计算机学生棒棒</a>
                 <a href="#"> 12-29</a>
               </li>
+              <li class="item-content">
+                <a href="#">计算机学生棒棒</a>
+                <a href="#"> 12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">计算机学生棒棒</a>
+                <a href="#"> 12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">计算机学生棒棒</a>
+                <a href="#"> 12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">计算机学生棒棒</a>
+                <a href="#"> 12-29</a>
+              </li>
+            
             </ul>
           </div>
 
@@ -183,8 +178,24 @@
             </div>
             <hr />
             <ul>
-              <li v-for="i in 5" class="item-content">
-                <a href="#">计算机学生棒棒{{i}}</a>
+              <li class="item-content">
+                <a href="#">通知公告</a>
+                <a href="#"> 2019-12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">通知公告</a>
+                <a href="#"> 2019-12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">通知公告</a>
+                <a href="#"> 2019-12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">通知公告</a>
+                <a href="#"> 2019-12-29</a>
+              </li>
+              <li class="item-content">
+                <a href="#">通知公告</a>
                 <a href="#"> 2019-12-29</a>
               </li>
             </ul>
@@ -220,44 +231,6 @@
         </div>
       </div>
     </div>
-
-    <script src="https://s1.pstatp.com/cdn/expire-1-M/vue/2.2.2/vue.min.js"></script>
-    <script type="text/javascript">
-      new Vue({
-        el: "#index",
-        data: {
-          /* 导航标题 */
-          nevigatelist: [
-            {
-              id: "1",
-              nav: "home",
-              label: "首页",
-            },
-            {
-              id: "2",
-              nav: "product",
-              label: "学校概述",
-            },
-            {
-              id: "3",
-              nav: "wechat",
-              label: "组织机构",
-            },
-            {
-              id: "4",
-              nav: "solution",
-              label: "合作交流",
-            },
-            {
-              id: "5",
-              nav: "cooperate",
-              label: "服务信息",
-            },
-          ],
-        },
-        mounted: function () {},
-        methods: {},
-      });
-    </script>
+  
   </body>
 </html>

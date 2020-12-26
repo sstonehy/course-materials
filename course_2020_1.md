@@ -106,7 +106,7 @@
 * 直播网课
   
 1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2842634&term_id=102953576&lite=1&from=800021724)
-  
+
 * 自学网课
 
   1. [职教云地址](https://zjy2.icve.com.cn/student/studio/studio.html)
@@ -132,4 +132,31 @@
 
 * 直播网课
   1. [腾讯课堂地址](https://ke.qq.com/webcourse/index.html#cid=2787073&term_id=102896508&lite=1&from=800021724)
+
+### 2.1
+
+#### 创业课程
+
+地址： [线上课程地址](https://onlineweb.zhihuishu.com/onlinestuh5)
+
+GitHub token : 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 
+
+```xml
+// <your_token>：包括<>在内的全部字符替换成你的token
+// <USERNAME>：包括<>在内的全部字符替换成你的username
+// <REPO>：包括<>在内的全部字符替换成你要访问的仓库名称
+git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
+git push origin main
+```
+
+
+
+```
+
+git remote set-url origin  https://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@github.com/sstonehy/course-materials.git
+
+git push origin main
+```
+
+
 
